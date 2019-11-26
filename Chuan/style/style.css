@@ -1,0 +1,157 @@
+.header-banner {
+    background: #14928f url('img/viettel8.jpg') top center;
+    height: 48vw;
+    width: 100%;
+    background-size: cover;
+}
+.header {
+    background: #14928f;
+    padding: 20px 0;
+    /*margin-bottom: 60px;*/
+}
+.bg-data4g {
+    background: #14928f !important;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.sticky + .content {
+  padding-top: 80px;
+}
+h2 {
+    text-transform: uppercase;
+    color: #14928f;
+    font-weight: bold;
+}
+.content {
+    margin-top: 66px;
+}
+.logo {
+    height: 40px;
+}
+.category {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.product {
+    margin: 15px 0;
+    border: 1px solid #14928f;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+.product-title {
+    text-align: center;
+    background: #14928f;
+    padding: 8px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 9px 9px 0px 0px;
+}
+.notice {
+    padding: 8px;
+    text-align: center;
+}
+.price {
+    background: #e9ecef;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e47a26;
+}
+.desc {
+    padding: 10px;
+    text-align: center;
+    /*color: #14928f;*/
+    font-size: 18px;
+}
+.syntax {
+    text-align: center;
+}
+.fare p {
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 15px;
+}
+.note {
+  padding: 10px;
+  text-align: center;
+}
+.detail {
+    text-align: center;
+    padding-top: 20px;
+}
+.detail .modal-body {
+    text-align: initial;
+}
+.register {
+    text-align: center;
+    padding: 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #d58431;
+    border-color: #d58431;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f5aa5d;
+    border-color: #d58431;
+}
+.input-group-text {
+    color: #fff;
+    background-color: #d58431;
+    border: 1px solid #d58431;
+}
+.form-control {
+    border-color: #d58431;
+}
+.message {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    z-index: 100;
+}
+.message.error {
+    background: #dc3545;
+    color: #fff;
+}
+.message.success {
+    background: green;
+    color: #fff;
+}
+.message.hidden {
+    display:none;
+}
+
+footer {
+    /*margin-top: 60px;*/
+    padding: 20px;
+    background: #d58431;
+    min-height: 60px;
+}
+footer p {
+    margin: 0
+}
+
+.navform {
+    display: none;
+}
+@media (min-width: 540px) {
+    .navform {
+        display: block;
+        width: 37%;
+    }
+}
+@media (max-width: 768px) {
+    .message {
+        width: calc(100% - 20px);
+        text-align: center;
+    }
+}
